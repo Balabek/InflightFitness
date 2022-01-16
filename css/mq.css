@@ -1,1 +1,312 @@
 /* 𝙼𝚎𝚍𝚒𝚊 𝚀𝚞𝚎𝚛𝚒𝚎𝚜 */
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Navbar ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 991px){
+    #InflightNavCollapse {
+        position: absolute;
+        background-color: #000000;
+        left: 0;
+        right: 0;
+        top: 90px;
+    }
+    ul.inflight_navbar {left: 120px;}
+    button.nav_dealerlogin_btn {margin-top: 16px; margin-bottom: 22px;}
+
+    ul.uppermost_socials {padding: 0;}
+
+}
+
+@media screen and (max-width: 880px){
+    ul.inflight_navbar {left: 80px;}
+}
+
+@media screen and (max-width: 767px){
+    ul.inflight_navbar {left: 35px;}
+}
+
+@media screen and (max-width: 574px){
+    ul.inflight_navbar {left: 25px;}
+}
+
+
+
+
+@media screen and (max-width: 767px){
+    .uppermost_textual_data {display: none;}
+    a.uppermost_contacticon:first-child {margin-right: 10px;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Header ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 1333px){
+    .h_banner_home h2 {padding-right: 12%;}
+}
+
+@media screen and (max-width: 1199px){
+    .redshape {left: -130px;}
+}
+
+@media screen and (max-width: 1128px){
+    .h_banner_home h1 {font-size: 4rem;}
+    .redshape {height: 180px;}
+}
+
+@media screen and (max-width: 950px){
+    .h_banner_home h2 {font-size: 1.3rem;}
+    .h_banner_home {top: 180px;}
+}
+
+@media screen and (max-width: 882px){
+    .h_banner_home {left: 25px; top: 200px; width: 90%;}
+    .h_banner_home h1 {font-size: 3rem;}
+    .h_banner_home h2 {font-size: 1.2rem; padding-right: 6%;}
+    .redshape {height: 150px;}
+}
+
+@media screen and (max-width: 618px){
+    .h_banner_home {left: 25px; top: 200px; width: 80%;}
+}
+
+@media screen and (max-width: 541px){
+    .h_banner_home h1 {font-size: 2.6rem;}
+    .h_banner_home h2 {font-size: 1.1rem;}
+    .redshape {height: 135px;}
+    button.main_cta_btn {
+        width: 196px;
+        height: 50px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .redshape {left: -80px;}
+    .h_banner_home h2 {font-size: 1.2rem; padding-right: 1%;}
+}
+
+@media screen and (max-width: 472px){
+    .h_banner_home h1 {font-size: 2.3rem;}
+    .h_banner_home h2 {font-size: 1rem;}
+    .redshape {height: 120px;}
+}
+
+@media screen and (max-width: 421px){
+    .h_banner_home {top: 230px; width: 88%; left: 5px;}
+}
+
+@media screen and (max-width: 381px){
+    .h_banner_home h1 {font-size: 2.2rem;}
+    .h_banner_home h2 {font-size: 1rem;}
+    .redshape {height: 120px;}
+}
+
+@media screen and (max-width: 366px){
+    .redshape {height: 160px;}
+}
+
+@media screen and (max-width: 347px){
+    .h_banner_home {top: 200px;}
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== About ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 1399px){
+    img.about {width: 400px;}
+}
+
+@media screen and (max-width: 1199px){
+    img.about {width: 330px;}
+    button.dark_btn {width: 55%;}
+    .about_content_holder {padding-top: 0; padding-left: 0;}
+}
+
+@media screen and (max-width: 991px){
+    img.about {width: 100%; height: 300px;}
+    .about_content_holder {padding-top: 22px;}
+    .about_area {padding-bottom: 55px;}
+}
+
+@media screen and (max-width: 574px){
+    .about_textual_area {padding-left: 24px; padding-right: 24px;}
+}
+
+@media screen and (max-width: 490px){
+    .title_holder h1 {font-size: 2.2rem;}
+}
+
+@media screen and (max-width: 475px){
+    button.dark_btn {width: 75%;}
+    span.title_deco_shape {top: 9px;}
+}
+
+@media screen and (max-width: 440px){
+    .title_holder h1 {font-size: 1.6rem;}
+}
+
+@media screen and (max-width: 399px){
+    button.dark_btn {width: 80%;}
+}
+
+@media screen and (max-width: 352px){
+    .title_holder h1 {font-size: 1.4rem;}
+    span.title_deco_shape {height: 27px; width: 34px;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Our Products ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 1199px){
+    button.btn_dark_products {width: 32%;}
+}
+
+@media screen and (max-width: 991px){
+    .products_holder {padding-top: 42px;}
+    .product_outermost {margin-bottom: 65px;}
+    .product_button_holder {padding-top: 16px;}
+}
+
+@media screen and (max-width: 767px){
+    button.btn_dark_products {width: 50%;}
+}
+
+@media screen and (max-width: 470px){
+    button.btn_dark_products {width: 65%;}
+    .our_products_content {padding-top: 16px;}
+    .product_outermost {padding-left: 22px;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Advantages ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 1199px){
+    .advantages_outermost h4 {font-size: 1rem;}
+    .advantages_outermost p {font-size: 1.1rem;}
+}
+
+@media screen and (max-width: 991px){
+    .advantages_content {padding-top: 36px;}
+    .white_ttl h1 {font-size: 1.9rem;}
+    .advantages_holder {padding-top: 65px;}
+    .advantages_outermost {margin-bottom: 55px;}
+}
+
+@media screen and (max-width: 767px){
+    .white_ttl h1 {font-size: 1.4rem; top: -6px; position: relative;}
+}
+
+@media screen and (max-width: 535px){
+    .white_ttl h1 {top: 6px;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Testimonials ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 991px){
+    .t_slider > ul.slick-dots {bottom: -135px;}
+    .testimonials_pic {height: 140px;}
+    .slider_wall {left: 17%; width: 90%;}
+}
+
+@media screen and (max-width: 840px){
+    .slider_wall {left: 4%;}
+    .testimonials_slider_holder {padding-top: 20px; padding-left: 0;}
+    .testimonials_content {padding-top: 12px;}
+    .t_slider > ul.slick-dots {right: 0;}
+}
+
+@media screen and (max-width: 767px){
+    .slider_wall {left: 0; width: 100%;}
+    .testimonials_pic {right: 24px;}
+    .review_text p {font-size: 1.1rem;}
+    .review_text h6 {font-size: 1.2rem;}
+    .t_slider > ul.slick-dots {bottom: -185px;}
+}
+
+@media screen and (max-width: 574px){
+    .slider_wall {left: 24px;}
+    .t_slider > ul.slick-dots {right: 24px;}
+}
+
+@media screen and (max-width: 444px){
+    .t_slider > ul.slick-dots {bottom: -155px;}
+}
+
+@media screen and (max-width: 360px){
+    .t_slider > ul.slick-dots {bottom: -125px;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Partner Logos ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 1199px){
+    img.partnerlogo {width: 185px;}
+}
+
+@media screen and (max-width: 991px){
+    img.partnerlogo {width: 130px;}
+}
+
+@media screen and (max-width: 767px){
+    img.partnerlogo {width: 165px;}
+}
+
+@media screen and (max-width: 440px){
+    img.partnerlogo {width: 200px;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Footer ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 1399px){
+    .footer_links_holder.first {padding-left: 35px;}
+    .footer_links_holder.second {padding-left: 10px;}
+    a.f_contacticon {font-size: 0.8rem;}
+}
+
+@media screen and (max-width: 991px){
+    .footer_logo_holder {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 55px;
+    }
+    .footer_links_holder {margin-bottom: 32px;}
+    .footer_links_holder.fourth {padding-left: 0;}
+    a.f_contacticon {font-size: 0.7rem;}
+    hr.footer_separ {margin-top: 18px;}
+}
+
+
+
+
