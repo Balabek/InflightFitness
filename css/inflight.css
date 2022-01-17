@@ -1129,6 +1129,44 @@ small.footer_postnote {
 
 
 
+/* ============= */
+/* =========== PRODUCT (INNER PAGE) =========== */
+/* ============= */
+
+.product_main_area {
+    position: relative;
+    min-height: 1115px;
+    height: auto;
+    background: #fefefe;
+    padding-top: 45px;
+    padding-bottom: 65px;
+}
+
+.product_content {
+    padding-top: 22px;
+}
+
+.prod_ttl_holder {
+    padding-left: 0;
+}
+
+.prod_ttl_holder h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000;
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.prod_ttl_holder h6 {
+    color: #CC2227;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+
+
+
 
 
 
