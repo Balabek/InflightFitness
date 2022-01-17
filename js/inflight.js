@@ -6,10 +6,9 @@ $(document).ready(function() {
 
     if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
         if (browserRatio >=1.5) {
-            alert('Hellliyo!');
-            $('.advantages_area').css('background-attachment', 'initial');
+            $('.advantages_area').css('background-size', 'contain');
         } else {
-            $('.advantages_area').css('background-attachment', 'fixed');
+            $('.advantages_area').css('background-size', 'cover');
         }
     }
 
