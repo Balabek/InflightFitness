@@ -6,9 +6,9 @@ $(document).ready(function() {
 
     if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
         if (browserRatio >=1.5) {
-            $('.advantages_area').css('background-size', 'contain');
+            $('.advantages_area').css('background-attachment', 'initial');
         } else {
-            $('.advantages_area').css('background-size', 'cover');
+            $('.advantages_area').css('background-attachment', 'fixed');
         }
     }
 
