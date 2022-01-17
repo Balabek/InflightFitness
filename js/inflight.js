@@ -15,6 +15,14 @@ $(document).ready(function() {
     });
 
 
+    let userAgent = window.navigator.userAgent;
+    if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
+        $('.advantages_area').css('background-attachment','initial');
+    }
+    else {
+        $('.advantages_area').css('background-attachment','fixed');
+    }
+
 
 
 
