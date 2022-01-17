@@ -15,15 +15,14 @@ $(document).ready(function() {
     });
 
 
-    let userAgent = window.navigator.userAgent;
-    if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
+
+    let isSafari = !!navigator.userAgent.match(/Version\/[\d.]+.*Safari/);
+    let iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MS
+    if (isSafari && iOS) {
         $('.advantages_area').css('background-attachment','initial');
-    }
-    else {
+    } else if(isSafari) {
         $('.advantages_area').css('background-attachment','fixed');
     }
-
-
 
 
 
