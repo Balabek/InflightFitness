@@ -15,14 +15,14 @@ $(document).ready(function() {
     });
 
 
-
-    // let isSafari = !!navigator.userAgent.match(/Version\/[\d.]+.*Safari/);
-    // let iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MS
-    // if (isSafari && iOS) {
-    //     $('.advantages_area').css('background-attachment','initial');
-    // } else if(isSafari) {
-    //     $('.advantages_area').css('background-attachment','fixed');
-    // }
+    // Detecting iOS
+    let isSafari = !!navigator.userAgent.match(/Version\/[\d.]+.*Safari/);
+    let iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MS
+    if (isSafari && iOS) {
+        $('.advantages_area').css('background-color','red');
+    } else if(isSafari) {
+        $('.advantages_area').css('background-attachment','fixed');
+    }
 
 
 
