@@ -731,7 +731,6 @@ button.btn_dark_products:hover {
     padding-bottom: 65px;
     background: url('../img/advantages_bgd.png') center center no-repeat;
     background-size: cover;
-    /*background-attachment: fixed;*/
 }
 
 .advantages_content {
@@ -1163,6 +1162,266 @@ small.footer_postnote {
     font-weight: 400;
     font-size: 1.1rem;
 }
+
+.prod_slide_main {
+    text-align: center;
+    width: 100%;
+    height: 580px;
+    background: #f9f9f9;
+}
+
+img.product_pic {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 555px;
+    mix-blend-mode: multiply;
+    object-fit: contain;
+}
+
+.prod_slide_mini {
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    background: #f9f9f9;
+}
+
+img.product_pic_mini {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 136px;
+    mix-blend-mode: multiply;
+    object-fit: contain;
+}
+
+.iff_slider_mini {
+    opacity: 1;
+}
+
+.product_carousel_outermost {
+    padding-left: 0;
+    padding-top: 32px;
+}
+
+.slider-for {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+}
+
+.slide-container {
+    width: 100%;
+    height: 580px;
+    background-color: #f9f9f9;
+    text-align: center;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.slide-btn {
+    text-align: center;
+    box-sizing: border-box;
+    height: 150px;
+    width: 170px !important;
+    background: #f9f9f9;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.slide-btn:hover {
+    background-color: rgba(102, 102, 102, 0.4);
+}
+
+.slick-prev:before, .slick-next:before {color: #999999;}
+
+.slick-dots {bottom: -75px;}
+
+ul.slick-dots li button::before {
+    font-size: 10px;
+}
+
+ul.slick-dots li.slick-active button:before {
+    color: #CC2227;
+    opacity: 1;
+}
+
+.product_data_outermost {
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.iff_link {
+    font-size: 1rem;
+    font-weight: 400;
+    height: 48px;
+    background: transparent !important;
+    color: rgba(102, 102, 102, 0.25) !important;
+    border: none;
+    border-radius: 0 !important;
+}
+
+.iff_link.active {
+    background: transparent !important;
+    color: #666666 !important;
+    font-weight: 600;
+    border-bottom: 4px solid #CC2227 !important;
+}
+
+.tab_inner_content_holder {
+    position: relative;
+    min-height: 400px;
+    height: auto;
+    padding-left: 0;
+    padding-top: 55px;
+}
+
+.tab_inner_content_holder_2 {
+    min-height: 400px;
+    height: auto;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-top: 55px;
+    display: inline-block;
+    text-align: center;
+}
+
+h4.subsubtitle {
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #666666;
+    text-align: left;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+
+ul.feature_listing {
+    padding-left: 0;
+}
+
+ul.feature_listing li {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+    list-style-type: none;
+    margin-bottom: 8px;
+    text-indent: -25px;
+    margin-left: 25px;
+}
+
+ul.feature_listing li:before {
+    position: relative;
+    content: '\f058';
+    font-family: "Font Awesome 5 Free";
+    color: #CC2227;
+    font-size: 1.2rem;
+    margin-right: 8px;
+    font-weight: 900;
+}
+
+ul.dimensions_listing {
+    padding-left: 0;
+}
+
+ul.dimensions_listing li {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+span.dimensional {
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    width: 362px;
+    height: 362px;
+    background: url('../img/dimensionz.svg') center center no-repeat;
+    background-size: contain;
+}
+
+img.footprint {
+    display: block;
+    width: 100%;
+    height: 458px;
+    object-fit: contain;
+}
+
+span.ghostlogo {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 378px;
+    text-align: center;
+    background: url('../img/Logo_ghost.svg') center center no-repeat;
+    background-size: contain;
+}
+
+.downloadable_outermost {
+    margin-bottom: 28px;
+}
+
+.downloadable_outermost a {
+    display: inline-block;
+    text-align: center;
+    color: #000000;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+img.download_icon {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 16px;
+    width: 100%;
+    height: 70px;
+    object-fit: contain;
+}
+
+
+
+
+/* ============= */
+/* =========== SIMILAR PRODUCTS =========== */
+/* ============= */
+
+.similar_products_area {
+    position: relative;
+    display: block;
+    background: #f5f5f5;
+    min-height: 820px;
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 85px;
+}
+
+.product_outermost h4 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #666666;
+    text-align: center;
+}
+
+img.similar_prod_pic {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 330px;
+    mix-blend-mode: multiply;
+    object-fit: contain;
+}
+
 
 
 

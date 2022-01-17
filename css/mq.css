@@ -171,8 +171,6 @@
 }
 
 
-
-
 /* !!!!!!!!!!!!!!!!!!!!!!!! */
 /* =========== Our Products ========== */
 /* !!!!!!!!!!!!!!!!!!!!!!!! */
@@ -198,9 +196,6 @@
 }
 
 
-
-
-
 /* !!!!!!!!!!!!!!!!!!!!!!!! */
 /* =========== Advantages ========== */
 /* !!!!!!!!!!!!!!!!!!!!!!!! */
@@ -224,8 +219,6 @@
 @media screen and (max-width: 535px){
     .white_ttl h1 {top: 6px;}
 }
-
-
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!! */
@@ -267,8 +260,6 @@
 }
 
 
-
-
 /* !!!!!!!!!!!!!!!!!!!!!!!! */
 /* =========== Partner Logos ========== */
 /* !!!!!!!!!!!!!!!!!!!!!!!! */
@@ -288,8 +279,6 @@
 @media screen and (max-width: 440px){
     img.partnerlogo {width: 200px;}
 }
-
-
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!! */
@@ -315,5 +304,48 @@
 }
 
 
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Products (inner) ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
 
+@media screen and (max-width: 1399px){
+    .slide-btn {width: 136px !important;}
+}
+
+@media screen and (max-width: 1199px){
+    .slide-btn {width: 115px !important;}
+    li.nav-item.iff_tab_item {margin-right: 0;}
+}
+
+@media screen and (max-width: 991px){
+    .slide-btn {width: 170px !important;}
+    .product_carousel_outermost {
+        margin-bottom: 55px;
+    }
+    span.ghostlogo {width: 260px; top: -50px;}
+}
+
+@media screen and (max-width: 767px){
+    .slide-btn {width: 95% !important;}
+    span.dimensional {left: 12%; top: 12%;}
+}
+
+@media screen and (max-width: 574px){
+    .product_content {width: 94%; margin: 0 auto;}
+    .product_data_outermost {padding-left: 0; padding-right: 0;}
+}
+
+@media screen and (max-width: 542px){
+    ul.iff_pills {display: block;}
+    ul.iff_pills li {margin-bottom: 22px;}
+}
+
+@media screen and (max-width: 475px){
+    span.dimensional {width: 100%; left: 0;}
+    img.footprint {height: 360px;}
+}
+
+@media screen and (max-width: 380px){
+    img.footprint {height: 320px;}
+}
 
