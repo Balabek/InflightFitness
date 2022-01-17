@@ -18,10 +18,10 @@ $(document).ready(function() {
     // Detecting iOS
     let isSafari = !!navigator.userAgent.match(/Version\/[\d.]+.*Safari/);
     let iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MS
-    if (isSafari && iOS) {
-        alert('FUck you!')
-        $('.advantages_area').css('background-color','red !important');
-    } else if(isSafari) {
+    if(isSafari && iOS){
+        $('.advantages_area').css('background-attachment','initial');
+    }
+    else {
         $('.advantages_area').css('background-attachment','fixed');
     }
 
