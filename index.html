@@ -464,6 +464,18 @@
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="slick-1.8.1/slick/slick.js"></script>
 <script type="text/javascript" src="js/inflight.js"></script>
+<script>
+  // Detecting iOS
+  let isSafari = !!navigator.userAgent.match(/Version\/[\d.]+.*Safari/);
+  let iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MS
+  if(isSafari && iOS){
+    alert("You are using Safari on iOS!");
+    $('.advantages_area').css('background-attachment','initial');
+  }
+  else {
+    $('.advantages_area').css('background-attachment','fixed');
+  }
+</script>
 
 </body>
 

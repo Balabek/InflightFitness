@@ -2,16 +2,7 @@
 
 $(document).ready(function() {
 
-    // Detecting iOS
-    let isSafari = !!navigator.userAgent.match(/Version\/[\d.]+.*Safari/);
-    let iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MS
-    if(isSafari && iOS){
-        alert("You are using Safari on iOS!");
-        $('.advantages_area').css('background-attachment','initial');
-    }
-    else {
-        $('.advantages_area').css('background-attachment','fixed');
-    }
+
 
     // Testimonials slider
     $('.t_slider').slick({
