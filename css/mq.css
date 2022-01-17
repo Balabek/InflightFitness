@@ -17,6 +17,10 @@
 
     ul.uppermost_socials {padding: 0;}
 
+    li.nav-item > a:after {
+        bottom: 0;
+    }
+
 }
 
 @media screen and (max-width: 880px){
@@ -25,21 +29,24 @@
 
 @media screen and (max-width: 767px){
     ul.inflight_navbar {left: 35px;}
-}
-
-@media screen and (max-width: 574px){
-    ul.inflight_navbar {left: 25px;}
-}
-
-
-
-
-@media screen and (max-width: 767px){
     .uppermost_textual_data {display: none;}
     a.uppermost_contacticon:first-child {margin-right: 10px;}
 }
 
+@media screen and (max-width: 574px){
+    ul.inflight_navbar {left: 25px;}
+    a.dropdown-item {font-size: 1rem !important;}
+    ul.iff_dropdown_menu {width: 200px;}
+    .dropdown-menu .dropdown-submenu {
+        left: 155px;
+        top: -1px;
+    }
+}
 
+
+@media screen and (max-width: 346px){
+    a.dropdown-item {font-size: 0.9rem !important;}
+}
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!! */
