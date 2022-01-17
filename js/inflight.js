@@ -2,15 +2,13 @@
 
 $(document).ready(function() {
 
-    console.log("Tupik!");
-
-    if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
-        if (browserRatio >=1.5) {
-            $('.advantages_area').css('background-attachment', 'initial');
-        } else {
-            $('.advantages_area').css('background-attachment', 'fixed');
-        }
-    }
+    // if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+    //     if (browserRatio >=1.5) {
+    //         $('.advantages_area').css('background-attachment', 'initial');
+    //     } else {
+    //         $('.advantages_area').css('background-attachment', 'fixed');
+    //     }
+    // }
 
     // Testimonials slider
     $('.t_slider').slick({
