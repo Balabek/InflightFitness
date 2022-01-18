@@ -203,6 +203,7 @@ ul.iff_dropdown_menu {
     border: none;
     padding: 0;
     background-color: #000000;
+    position: relative;
 }
 
 ul.iff_dropdown_menu li {
@@ -1445,7 +1446,6 @@ img.similar_prod_pic {
 .inner_header_area:after {
     content:"";
     position:absolute;
-    z-index: 1;
     top:0;
     bottom:0;
     left:0;
@@ -1455,7 +1455,7 @@ img.similar_prod_pic {
 
 .inner_banner_holder h1{
     position: relative;
-    z-index: 15;
+    z-index: 1;
     font-size: 3.8rem;
     font-weight: 900;
     color: #ffffff;
@@ -1543,7 +1543,7 @@ button.dealer_search_btn {
 }
 
 button.dealer_search_btn:hover {
-    background: #8d171a;
+    background: #000000;
     color: #ffffff;
 }
 
@@ -1582,6 +1582,222 @@ a.business_phone i {
     font-size: 1.1rem;
     color: #CC2227;
     margin-right: 4px;
+}
+
+
+
+
+
+/* ============= */
+/* =========== SUPPORT (INNER PAGE) =========== */
+/* ============= */
+
+.support_main_area {
+    position: relative;
+    min-height: 1000px;
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    background: #f5f5f5;
+}
+
+.support_content_outermost {
+    padding-top: 55px;
+}
+
+.support_form_holder {
+    min-height: 780px;
+    height: auto;
+    padding: 42px 28px 42px 28px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.support_form_holder p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #999999;
+}
+
+.support_form_holder p i {
+    color: #CC2227;
+    font-size: 1rem;
+}
+
+.iff_txtarea {
+    height: 250px;
+    padding-left: 18px;
+    padding-top: 18px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666666;
+    background: #F8F8F8;
+    border: 1px solid #E2E2E2;
+    border-radius: 1px;
+    resize: none;
+}
+
+.iff_txtarea:focus {
+    background: #F8F8F8;
+    border: 1px solid #E2E2E2;
+}
+
+.contact_submit_btn_holder {
+    padding-top: 42px;
+}
+
+button.iff_send_btn {
+    height: 50px;
+    width: 45%;
+    color: #ffffff;
+    border-radius: 1px;
+    line-height: 3;
+    text-transform: uppercase;
+    background: #CC2227;
+    box-shadow: 0 4px 54px 0 rgba(0,0,0,0.18);
+    transition: all 0.4s ease-in-out;
+}
+
+button.iff_send_btn:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+button.iff_send_btn:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.invalid-feedback {color: #9B1C32;}
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+    border-color: rgba(155, 28, 50, 0.5);
+    background-image: url("../img/warning.svg");
+}
+.was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
+    border-color: rgba(155, 28, 50, 0.5);
+}
+
+.was-validated .form-control:valid, .form-control.is-valid {
+    border-color: #D8D8D8;
+    background-image: none;
+}
+.was-validated .form-control:valid:focus, .form-control.is-valid:focus {
+    border-color: #D8D8D8;
+}
+
+.da_toast_confirm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 4px !important;
+    height: 65px;
+    z-index: 30;
+    background: rgb(33, 33, 33) !important;
+    color: #fefefe;
+    font-size: 1rem;
+}
+
+.support_details_outermost {
+    padding-left: 115px;
+    padding-top: 36px;
+}
+
+.support_details_outermost h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #666666;
+    text-align: left;
+    margin-bottom: 42px;
+}
+
+.info_piece_holder {
+    padding-left: 0;
+    margin-bottom: 32px;
+    margin-left: 20px;
+}
+
+.info_piece_holder small {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #999999;
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+.info_piece_holder a {
+    font-size: 1rem;
+    color: #666666;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: -20px;
+    transition: all 0.4s ease;
+}
+
+.info_piece_holder a:hover {
+    color: #999999;
+}
+
+.info_piece_holder a i {
+    color: #CC2227;
+    font-size: 1.1rem;
+    margin-right: 4px;
+}
+
+hr.support_separator {
+    margin-top: 42px;
+    margin-bottom: 42px;
+    background-color: rgba(153, 153, 153, 0.66);
+}
+
+h2.iff_modal_ttl {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #666666;
+}
+
+.modal-dialog.support_modal {
+    max-width: 75%;
+}
+
+article.modal_info p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 24px;
+}
+
+article.modal_info p span {
+    font-weight: 700;
+}
+
+span.pseudoheading {
+    display: block;
+    font-size: 1.245rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #666666;
+}
+
+article.modal_info p a {
+    color: #CC2227;
+    text-transform: none;
+    transition: all 0.4s ease;
+}
+
+article.modal_info p a:hover {
+    color: #8d171a;
+}
+
+.modal-content.support_modal_content {
+    padding-top: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 
