@@ -170,7 +170,7 @@ li.nav-item a {
     color: #f4f4f4 !important;
 }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {color: #666666;}
+/*.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {color: #666666;}*/
 
 li.nav-item > a:after {
     content: '';
@@ -329,8 +329,6 @@ i.dropdownarrow {
 
 ul.dropdown-menu.dropdown-submenu li {
     line-height: 40px;
-
-
 }
 
 
@@ -1803,6 +1801,168 @@ article.modal_info p a:hover {
 
 
 
+
+/* ============= */
+/* =========== SUPPORT (EXTERNAL PAGE) =========== */
+/* ============= */
+
+.inner_miniheader_area {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 220px;
+    text-align: center;
+}
+
+.inner_miniheader_area:after {
+    content:"";
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.1);
+}
+
+.file_manager_main_area {
+    position: relative;
+    min-height: 1000px;
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    background: #f5f5f5;
+}
+
+.file_manager_utility_links_holder {
+    padding-right: 0;
+    text-align: right;
+    position: relative;
+    top: 2px;
+}
+
+.file_manager_utility_links_holder small {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: right;
+    color: #999999;
+    margin-bottom: 12px;
+}
+
+.file_manager_utility_links_holder small span {
+    font-weight: 700;
+    color: #cbcbcb;
+}
+
+.file_manager_utility_links_holder a {
+    font-size: 1rem;
+    color: #CC2227;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: right;
+    transition: 0.4s all ease-in;
+}
+
+.file_manager_utility_links_holder a:hover {
+    color: #CC2227;
+    text-shadow: 0 0 2px #CC2227;
+}
+
+.file_manager_content_outermost {
+    padding-top: 46px;
+}
+
+.files_holder {
+    position: relative;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background: #ffffff;
+    max-height: 1500px;
+    overflow-y: scroll;
+    margin-bottom: 75px;
+}
+
+ul.iff_filemanager_pills li {
+    height: 50px;
+    border-radius: 1px;
+    text-align: center;
+    background: #666666;
+    margin-bottom: 12px;
+}
+
+ul.iff_filemanager_pills li.active {
+    background: #CC2227;
+}
+
+ul.iff_filemanager_pills li a {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 2.6;
+    text-decoration: none;
+}
+
+.nav-link.iff_fm_tab_link {
+    width: 88%;
+    font-size: 1rem;
+    line-height: 2.7;
+    font-weight: 400;
+    height: 48px;
+    background: #666666 !important;
+    color: #ffffff;
+    border: none;
+    border-radius: 1px !important;
+    margin-bottom: 12px;
+}
+
+.nav-link.iff_fm_tab_link.active {
+    background: #CC2227 !important;
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.downloadable_outermost_fm {
+    margin-bottom: 46px;
+}
+
+.downloadable_outermost_fm a {
+    display: inline-block;
+    text-align: center;
+    color: #000000;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.4s all ease;
+}
+
+.downloadable_outermost_fm a:hover {
+    color: #999999;
+}
+
+img.download_icon {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 16px;
+    width: 100%;
+    height: 70px;
+    object-fit: contain;
+}
+
+.ghost_footer_holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 12px;
+}
+
+.ghost_footer_holder small {
+    font-size: 0.9rem;
+    color: #999999;
+}
 
 
 

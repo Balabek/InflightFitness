@@ -394,6 +394,27 @@
 
 
 
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== File Manager  (inner) ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 991px){
+    .nav-link.iff_fm_tab_link {width: 100%;}
+    .file_type_tabs_holder {margin-bottom: 32px;}
+}
+
+@media screen and (max-width: 575px){
+    .file_manager_content_outermost {width: 96%; margin: 0 auto;}
+    .downloadable_outermost_fm {width: 32%;}
+}
+
+@media screen and (max-width: 414px){
+    .downloadable_outermost_fm {width: 48%;}
+}
+
+
+
+
 
 
 
