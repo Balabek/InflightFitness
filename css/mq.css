@@ -349,3 +349,48 @@
     img.footprint {height: 320px;}
 }
 
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Dealers (inner) ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 767px){
+    .dealer_map_holder {width: 100%;}
+    form.dealer_search {width: 100%;}
+}
+
+@media screen and (max-width: 574px){
+    button.dealer_search_btn {margin-top: 16px;}
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Contact (inner) ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

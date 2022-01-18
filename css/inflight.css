@@ -1378,6 +1378,11 @@ span.ghostlogo {
     font-size: 1.1rem;
     text-decoration: none;
     font-weight: 500;
+    transition: 0.4s all ease;
+}
+
+.downloadable_outermost a:hover {
+    color: #999999;
 }
 
 img.download_icon {
@@ -1421,6 +1426,206 @@ img.similar_prod_pic {
     mix-blend-mode: multiply;
     object-fit: contain;
 }
+
+
+
+
+/* ============= */
+/* =========== DEALERS (INNER PAGE) =========== */
+/* ============= */
+
+.inner_header_area {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 375px;
+    text-align: center;
+}
+
+.inner_header_area:after {
+    content:"";
+    position:absolute;
+    z-index: 1;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.5);
+}
+
+.inner_banner_holder h1{
+    position: relative;
+    z-index: 15;
+    font-size: 3.8rem;
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.dealers_main_area {
+    position: relative;
+    min-height: 1100px;
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 45px;
+    background: #ffffff;
+}
+
+.dealers_content_outermost {
+    padding-top: 28px;
+}
+
+.dealers_subheader_holder {
+    padding-left: 0;
+    margin-bottom: 60px;
+}
+
+.dealers_subheader_holder h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #666666;
+    text-align: left;
+}
+
+.dealers_subheader_holder p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+}
+
+.dealers_subheader_holder p a {
+    color: #CC2227;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+.dealers_subheader_holder p a:hover {
+    color: #8d171a;
+}
+
+form.dealer_search {
+    width: 87%;
+    margin: 0 auto;
+}
+
+input.iff_input {
+    height: 50px;
+    padding-left: 18px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666666;
+    background: #F8F8F8;
+    border: 1px solid #E2E2E2;
+    border-radius: 1px;
+}
+
+input.iff_input:focus {
+    background: #F8F8F8;
+    border: 1px solid #E2E2E2;
+    outline: none;
+    box-shadow: none !important;
+}
+
+button.dealer_search_btn {
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+    background: #CC2227;
+    border-radius: 1px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 3;
+    transition: 0.4s all ease-in-out;
+}
+
+button.dealer_search_btn:hover {
+    background: #8d171a;
+    color: #ffffff;
+}
+
+.dealer_map_holder {
+    padding-top: 38px;
+    padding-left: 20px;
+    width: 87%;
+    margin: 0 auto;
+}
+
+.location_details {
+    padding-top: 38px;
+}
+
+h5.business_title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #666666;
+    text-align: left;
+}
+
+p.business_address {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000000;
+}
+
+a.business_phone {
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #666666;
+}
+
+a.business_phone i {
+    font-size: 1.1rem;
+    color: #CC2227;
+    margin-right: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
