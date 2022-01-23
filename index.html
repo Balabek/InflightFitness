@@ -17,8 +17,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0">
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -40,6 +41,47 @@
 
 </head>
 <body>
+
+<!-- LoginModal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog login_modal">
+    <div class="modal-content login_modal_content">
+      <div class="modal-header login_modal_header">
+        <div class="row login_logo_holder justify-content-center">
+          <img src="img/IF_Verticalogo.svg" class="loginlogo" alt="Logo">
+        </div>
+      </div>
+      <div class="modal-body login_modal_body">
+        <div class="login_form_holder">
+          <form id="iffLoginForm" method="post" class="iff_login_form needs-validation" role="form" novalidate>
+            <div class="form_innerbox">
+              <div class="form-group iff_form_group">
+                <label class="da_label" for="username"></label>
+                <input type="text" autocomplete="off" class="form-control iff_login_input" id="username" placeholder="USERNAME" onfocus="placeholder='' " onblur="placeholder='USERNAME' " required>
+                <div class="invalid-feedback">
+                  This field is required.
+                </div>
+              </div>
+              <div class="form-group iff_form_group">
+                <label class="da_label" for="password"></label>
+                <input type="password" autocomplete="off" class="form-control iff_login_input" id="password" placeholder="PASSWORD" onfocus="placeholder='' " onblur="placeholder='PASSWORD' " required>
+                <div class="invalid-feedback">
+                  This field is required.
+                </div>
+              </div>
+              <div class="form-group iff_form_group">
+                <div class="row justify-content-center dealer_enter_btn_holder">
+                  <button type="submit" id="dealerLogin" class="btn dealer_enter_btn">Enter</button>
+                </div>
+              </div>
+            </div>
+          </form> <!-- Form END -->
+        </div>
+      </div>
+      <span class="loginmodal_abstract"></span>
+    </div>
+  </div>
+</div> <!-- Login Modal END -->
 
 <div id="home" class="outermost_wrapper">
 
@@ -160,7 +202,7 @@
           </li>
 
           <li class="nav-item nav_btn_item">
-            <button id="dealerLoginButton" class="btn navbtn nav_dealerlogin_btn">Dealer Login</button>
+            <button id="dealerLoginButton" class="btn navbtn nav_dealerlogin_btn" data-bs-toggle="modal" data-bs-target="#loginModal">Dealer Login</button>
           </li>
 
         </ul>

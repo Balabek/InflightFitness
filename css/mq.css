@@ -426,7 +426,29 @@
 
 
 
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== Login Modal ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
 
+@media screen and (max-width: 991px){
+    .modal-dialog.login_modal {max-width: 75%;}
+}
+
+@media screen and (max-width: 575px){
+    .modal-dialog.login_modal {max-width: 90%; margin: 0 auto; top: 75px;}
+}
+
+@media screen and (max-width: 500px){
+    .modal-dialog.login_modal {max-width: 92%;}
+    button.dealer_enter_btn {width: 65%;}
+}
+
+@media screen and (max-width: 380px){
+    .form_innerbox {
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+}
 
 
 

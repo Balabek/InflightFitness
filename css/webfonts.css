@@ -1,122 +1,403 @@
 /* 𝙵𝙾𝙽𝚃𝚂 */
 
 @font-face {
-    font-family: 'GalanoClassic';
-    src: url('../fonts/GalanoClassic-Black.eot');
-    src: url('../fonts/GalanoClassic-Black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GalanoClassic-Black.woff2') format('woff2'),
-        url('../fonts/GalanoClassic-Black.woff') format('woff'),
-        url('../fonts/GalanoClassic-Black.svg#GalanoClassic-Black') format('svg');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GalanoClassic';
-    src: url('../fonts/GalanoClassic-ExtraBold.eot');
-    src: url('../fonts/GalanoClassic-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GalanoClassic-ExtraBold.woff2') format('woff2'),
-        url('../fonts/GalanoClassic-ExtraBold.woff') format('woff'),
-        url('../fonts/GalanoClassic-ExtraBold.svg#GalanoClassic-ExtraBold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GalanoClassic';
-    src: url('../fonts/GalanoClassic-Bold.eot');
-    src: url('../fonts/GalanoClassic-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GalanoClassic-Bold.woff2') format('woff2'),
-        url('../fonts/GalanoClassic-Bold.woff') format('woff'),
-        url('../fonts/GalanoClassic-Bold.svg#GalanoClassic-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GalanoClassic';
-    src: url('../fonts/GalanoClassic-Medium.eot');
-    src: url('../fonts/GalanoClassic-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GalanoClassic-Medium.woff2') format('woff2'),
-        url('../fonts/GalanoClassic-Medium.woff') format('woff'),
-        url('../fonts/GalanoClassic-Medium.svg#GalanoClassic-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GalanoClassic';
-    src: url('../fonts/GalanoClassic-Light.eot');
-    src: url('../fonts/GalanoClassic-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GalanoClassic-Light.woff2') format('woff2'),
-        url('../fonts/GalanoClassic-Light.woff') format('woff'),
-        url('../fonts/GalanoClassic-Light.svg#GalanoClassic-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GalanoClassic';
-    src: url('../fonts/GalanoClassic-Italic.eot');
-    src: url('../fonts/GalanoClassic-Italic.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GalanoClassic-Italic.woff2') format('woff2'),
-        url('../fonts/GalanoClassic-Italic.woff') format('woff'),
-        url('../fonts/GalanoClassic-Italic.svg#GalanoClassic-Italic') format('svg');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GalanoClassic';
-    src: url('../fonts/GalanoClassic-Thin.eot');
-    src: url('../fonts/GalanoClassic-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GalanoClassic-Thin.woff2') format('woff2'),
-        url('../fonts/GalanoClassic-Thin.woff') format('woff'),
-        url('../fonts/GalanoClassic-Thin.svg#GalanoClassic-Thin') format('svg');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GalanoClassic';
-    src: url('../fonts/GalanoClassic-SemiBold.eot');
-    src: url('../fonts/GalanoClassic-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GalanoClassic-SemiBold.woff2') format('woff2'),
-        url('../fonts/GalanoClassic-SemiBold.woff') format('woff'),
-        url('../fonts/GalanoClassic-SemiBold.svg#GalanoClassic-SemiBold') format('svg');
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'GalanoClassic';
+    font-family: 'Galano Classic';
     src: url('../fonts/GalanoClassic-ExtraLight.eot');
-    src: url('../fonts/GalanoClassic-ExtraLight.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GalanoClassic-ExtraLight.woff2') format('woff2'),
-        url('../fonts/GalanoClassic-ExtraLight.woff') format('woff'),
-        url('../fonts/GalanoClassic-ExtraLight.svg#GalanoClassic-ExtraLight') format('svg');
+    src: local('Galano Classic ExtraLight'), local('GalanoClassic-ExtraLight'),
+    url('../fonts/GalanoClassic-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-ExtraLight.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-ExtraLight.woff') format('woff'),
+    url('../fonts/GalanoClassic-ExtraLight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
-    font-display: swap;
 }
 
 @font-face {
-    font-family: 'GalanoClassic';
-    src: url('../fonts/GalanoClassic-Heavy.eot');
-    src: url('../fonts/GalanoClassic-Heavy.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GalanoClassic-Heavy.woff2') format('woff2'),
-        url('../fonts/GalanoClassic-Heavy.woff') format('woff'),
-        url('../fonts/GalanoClassic-Heavy.svg#GalanoClassic-Heavy') format('svg');
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-Italic.eot');
+    src: local('../fonts/Galano Classic Italic'), local('GalanoClassic-Italic'),
+    url('../fonts/GalanoClassic-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-Italic.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-Italic.woff') format('woff'),
+    url('../fonts/GalanoClassic-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Galano Classic Alt';
+    src: url('../fonts/GalanoClassicAlt-Medium.eot');
+    src: local('Galano Classic Alt Medium'), local('GalanoClassicAlt-Medium'),
+    url('../fonts/GalanoClassicAlt-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-Medium.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-Medium.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-BlackItalic.eot');
+    src: local('Galano Classic Black Italic'), local('GalanoClassic-BlackItalic'),
+    url('../fonts/GalanoClassic-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-BlackItalic.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-BlackItalic.woff') format('woff'),
+    url('../fonts/GalanoClassic-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-HeavyItalic.eot');
+    src: local('Galano Classic Heavy Italic'), local('GalanoClassic-HeavyItalic'),
+    url('../fonts/GalanoClassic-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-HeavyItalic.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-HeavyItalic.woff') format('woff'),
+    url('../fonts/GalanoClassic-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Galano Classic Alt SmBold It';
+    src: url('../fonts/GalanoClassicAlt-SemiBoldItalic.eot');
+    src: local('Galano Classic Alt SemiBold Italic'), local('GalanoClassicAlt-SemiBoldItalic'),
+    url('../fonts/GalanoClassicAlt-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-SemiBoldItalic.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-SemiBoldItalic.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Galano Classic ExLight';
+    src: url('../fonts/GalanoClassic-ExtraLightItalic.eot');
+    src: local('Galano Classic ExtraLight Italic'), local('GalanoClassic-ExtraLightItalic'),
+    url('../fonts/GalanoClassic-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-ExtraLightItalic.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-ExtraLightItalic.woff') format('woff'),
+    url('../fonts/GalanoClassic-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-ExtraBoldItalic.eot');
+    src: local('Galano Classic ExtraBold Italic'), local('GalanoClassic-ExtraBoldItalic'),
+    url('../fonts/GalanoClassic-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-ExtraBoldItalic.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-ExtraBoldItalic.woff') format('woff'),
+    url('../fonts/GalanoClassic-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Galano Classic Alt';
+    src: url('../fonts/GalanoClassicAlt-HeavyItalic.eot');
+    src: local('Galano Classic Alt Heavy Italic'), local('GalanoClassicAlt-HeavyItalic'),
+    url('../fonts/GalanoClassicAlt-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-HeavyItalic.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-HeavyItalic.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Galano Classic Alt';
+    src: url('../fonts/GalanoClassicAlt-ThinItalic.eot');
+    src: local('Galano Classic Alt Thin Italic'), local('GalanoClassicAlt-ThinItalic'),
+    url('../fonts/GalanoClassicAlt-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-ThinItalic.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-ThinItalic.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Galano Classic Alt Medium It';
+    src: url('../fonts/GalanoClassicAlt-MediumItalic.eot');
+    src: local('Galano Classic Alt Medium Italic'), local('GalanoClassicAlt-MediumItalic'),
+    url('../fonts/GalanoClassicAlt-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-MediumItalic.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-MediumItalic.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-MediumItalic.eot');
+    src: local('Galano Classic Medium Italic'), local('GalanoClassic-MediumItalic'),
+    url('../fonts/GalanoClassic-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-MediumItalic.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-MediumItalic.woff') format('woff'),
+    url('../fonts/GalanoClassic-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Galano Classic Alt';
+    src: url('../fonts/GalanoClassicAlt-BoldItalic.eot');
+    src: local('Galano Classic Alt Bold Italic'), local('GalanoClassicAlt-BoldItalic'),
+    url('../fonts/GalanoClassicAlt-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-BoldItalic.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-BoldItalic.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Galano Classic Alt';
+    src: url('../fonts/GalanoClassicAlt-SemiBold.eot');
+    src: local('Galano Classic Alt SemiBold'), local('GalanoClassicAlt-SemiBold'),
+    url('../fonts/GalanoClassicAlt-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-SemiBold.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-SemiBold.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-LightItalic.eot');
+    src: local('Galano Classic Light Italic'), local('GalanoClassic-LightItalic'),
+    url('../fonts/GalanoClassic-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-LightItalic.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-LightItalic.woff') format('woff'),
+    url('../fonts/GalanoClassic-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-SemiBold.eot');
+    src: local('Galano Classic SemiBold'), local('GalanoClassic-SemiBold'),
+    url('../fonts/GalanoClassic-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-SemiBold.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-SemiBold.woff') format('woff'),
+    url('../fonts/GalanoClassic-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-Thin.eot');
+    src: local('Galano Classic Thin'), local('GalanoClassic-Thin'),
+    url('../fonts/GalanoClassic-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-Thin.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-Thin.woff') format('woff'),
+    url('../fonts/GalanoClassic-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-Medium.eot');
+    src: local('Galano Classic Medium'), local('GalanoClassic-Medium'),
+    url('../fonts/GalanoClassic-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-Medium.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-Medium.woff') format('woff'),
+    url('../fonts/GalanoClassic-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-Black.eot');
+    src: local('Galano Classic Black'), local('GalanoClassic-Black'),
+    url('../fonts/GalanoClassic-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-Black.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-Black.woff') format('woff'),
+    url('../fonts/GalanoClassic-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
-    font-display: swap;
 }
+
+@font-face {
+    font-family: 'Galano Classic Alt';
+    src: url('../fonts/GalanoClassicAlt-Bold.eot');
+    src: local('Galano Classic Alt Bold'), local('GalanoClassicAlt-Bold'),
+    url('../fonts/GalanoClassicAlt-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-Bold.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-Bold.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic Alt';
+    src: url('../fonts/GalanoClassicAlt-Light.eot');
+    src: local('Galano Classic Alt Light'), local('GalanoClassicAlt-Light'),
+    url('../fonts/GalanoClassicAlt-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-Light.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-Light.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-BoldItalic.eot');
+    src: local('Galano Classic Bold Italic'), local('GalanoClassic-BoldItalic'),
+    url('../fonts/GalanoClassic-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-BoldItalic.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-BoldItalic.woff') format('woff'),
+    url('../fonts/GalanoClassic-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-Regular.eot');
+    src: local('Galano Classic Regular'), local('GalanoClassic-Regular'),
+    url('../fonts/GalanoClassic-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-Regular.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-Regular.woff') format('woff'),
+    url('../fonts/GalanoClassic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-ExtraBold.eot');
+    src: local('Galano Classic ExtraBold'), local('GalanoClassic-ExtraBold'),
+    url('../fonts/GalanoClassic-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-ExtraBold.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-ExtraBold.woff') format('woff'),
+    url('../fonts/GalanoClassic-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-Bold.eot');
+    src: local('Galano Classic Bold'), local('GalanoClassic-Bold'),
+    url('../fonts/GalanoClassic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-Bold.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-Bold.woff') format('woff'),
+    url('../fonts/GalanoClassic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic Alt';
+    src: url('../fonts/GalanoClassicAlt-Black.eot');
+    src: local('Galano Classic Alt Black'), local('GalanoClassicAlt-Black'),
+    url('../fonts/GalanoClassicAlt-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-Black.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-Black.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic Alt';
+    src: url('../fonts/GalanoClassicAlt-ExtraLight.eot');
+    src: local('Galano Classic Alt ExtraLight'), local('GalanoClassicAlt-ExtraLight'),
+    url('../fonts/GalanoClassicAlt-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-ExtraLight.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-ExtraLight.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic Alt';
+    src: url('../fonts/GalanoClassicAlt-Thin.eot');
+    src: local('Galano Classic Alt Thin'), local('GalanoClassicAlt-Thin'),
+    url('../fonts/GalanoClassicAlt-Thin.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-Thin.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-Thin.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-Light.eot');
+    src: local('Galano Classic Light'), local('GalanoClassic-Light'),
+    url('../fonts/GalanoClassic-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-Light.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-Light.woff') format('woff'),
+    url('../fonts/GalanoClassic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Galano Classic Alt';
+    src: url('../fonts/GalanoClassicAlt-Regular.eot');
+    src: local('Galano Classic Alt Regular'), local('GalanoClassicAlt-Regular'),
+    url('../fonts/GalanoClassicAlt-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-Regular.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-Regular.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic';
+    src: url('../fonts/GalanoClassic-Heavy.eot');
+    src: local('Galano Classic Heavy'), local('GalanoClassic-Heavy'),
+    url('../fonts/GalanoClassic-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassic-Heavy.woff2') format('woff2'),
+    url('../fonts/GalanoClassic-Heavy.woff') format('woff'),
+    url('../fonts/GalanoClassic-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic Alt';
+    src: url('../fonts/GalanoClassicAlt-ExtraBold.eot');
+    src: local('Galano Classic Alt ExtraBold'), local('GalanoClassicAlt-ExtraBold'),
+    url('../fonts/GalanoClassicAlt-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-ExtraBold.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-ExtraBold.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Galano Classic Alt';
+    src: url('../fonts/GalanoClassicAlt-Heavy.eot');
+    src: local('Galano Classic Alt Heavy'), local('GalanoClassicAlt-Heavy'),
+    url('../fonts/GalanoClassicAlt-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GalanoClassicAlt-Heavy.woff2') format('woff2'),
+    url('../fonts/GalanoClassicAlt-Heavy.woff') format('woff'),
+    url('../fonts/GalanoClassicAlt-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
 
