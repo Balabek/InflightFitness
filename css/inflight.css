@@ -668,7 +668,7 @@ button.dark_btn:hover {
 img.product_pic {
     display: block;
     width: 100%;
-    height: 255px;
+    height: 355px;
     object-fit: contain;
 }
 
@@ -1169,7 +1169,7 @@ small.footer_postnote {
     background: #f9f9f9;
 }
 
-img.product_pic {
+img.product_pic_large {
     display: block;
     text-align: center;
     width: 100%;
