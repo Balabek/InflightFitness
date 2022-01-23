@@ -19,6 +19,7 @@
 
     li.nav-item > a:after {
         bottom: 0;
+        background: transparent;
     }
 
 }

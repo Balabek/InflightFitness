@@ -41,6 +41,47 @@
 </head>
 <body>
 
+<!-- LoginModal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog login_modal">
+        <div class="modal-content login_modal_content">
+            <div class="modal-header login_modal_header">
+                <div class="row login_logo_holder justify-content-center">
+                    <img src="img/IF_Verticalogo.svg" class="loginlogo" alt="Logo">
+                </div>
+            </div>
+            <div class="modal-body login_modal_body">
+                <div class="login_form_holder">
+                    <form id="iffLoginForm" method="post" class="iff_login_form needs-validation" role="form" novalidate>
+                        <div class="form_innerbox">
+                            <div class="form-group iff_form_group">
+                                <label class="da_label" for="username"></label>
+                                <input type="text" autocomplete="off" class="form-control iff_login_input" id="username" placeholder="USERNAME" onfocus="placeholder='' " onblur="placeholder='USERNAME' " required>
+                                <div class="invalid-feedback">
+                                    This field is required.
+                                </div>
+                            </div>
+                            <div class="form-group iff_form_group">
+                                <label class="da_label" for="password"></label>
+                                <input type="password" autocomplete="off" class="form-control iff_login_input" id="password" placeholder="PASSWORD" onfocus="placeholder='' " onblur="placeholder='PASSWORD' " required>
+                                <div class="invalid-feedback">
+                                    This field is required.
+                                </div>
+                            </div>
+                            <div class="form-group iff_form_group">
+                                <div class="row justify-content-center dealer_enter_btn_holder">
+                                    <button type="submit" id="dealerLogin" class="btn dealer_enter_btn">Enter</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form> <!-- Form END -->
+                </div>
+            </div>
+            <span class="loginmodal_abstract"></span>
+        </div>
+    </div>
+</div> <!-- Login Modal END -->
+
 <!-- Prop 65 Modal -->
 <div class="modal fade" id="prop65Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog support_modal">
@@ -211,7 +252,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Dealers</a>
                     </li>
-
                     <li class="nav-item nav_btn_item">
                         <button id="dealerLoginButton" class="btn navbtn nav_dealerlogin_btn" data-bs-toggle="modal" data-bs-target="#loginModal">Dealer Login</button>
                     </li>
