@@ -374,6 +374,10 @@
 /* =========== Support (inner) ========== */
 /* !!!!!!!!!!!!!!!!!!!!!!!! */
 
+@media screen and (min-width: 1800px){
+    .modal-dialog.support_modal {max-width: 950px;}
+}
+
 @media screen and (max-width: 991px){
     .support_details_outermost {padding-left: 0;}
     .support_details_outermost {padding-top: 50px;}
@@ -429,6 +433,10 @@
 /* !!!!!!!!!!!!!!!!!!!!!!!! */
 /* =========== Login Modal ========== */
 /* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+@media screen and (min-width: 1800px){
+    .modal-dialog.login_modal {max-width: 695px;}
+}
 
 @media screen and (max-width: 991px){
     .modal-dialog.login_modal {max-width: 75%;}
