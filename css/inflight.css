@@ -903,10 +903,19 @@ ul.rating li i {
     position: relative;
     display: block;
     background: #fefefe;
-    min-height: 340px;
+    min-height: 475px;
     height: auto;
     padding-top: 45px;
-    padding-bottom: 45px;
+    padding-bottom: 75px;
+}
+
+.partner_logo_content {
+    padding-top: 32px;
+}
+
+hr.gapmaker {
+    margin-top: 22px;
+    margin-bottom: 18px;
 }
 
 ul.p_logos {
