@@ -314,6 +314,8 @@ i.dropdownarrow {
 }
 .dropdown-menu > li:hover > .dropdown-submenu {
     display: block;
+    max-height: 480px;
+    overflow: auto;
 }
 .dropdown-menu li {
     position: relative;
