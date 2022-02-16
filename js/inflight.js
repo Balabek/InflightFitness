@@ -87,6 +87,11 @@ $(document).ready(function() {
 
 
 
+    $('ul.dropdown-menu a').on("click", function(e){
+        $(this).next('ul').toggle();
+        e.stopPropagation();
+        e.preventDefault();
+    });
 
 
 
